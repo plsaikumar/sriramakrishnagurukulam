@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>SRI RAMA KRISHNA GURUKULAM </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/srkg.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="vendors/animate/animate.css" rel="stylesheet">
+    <!-- Icon CSS-->
+	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <!-- Camera Slider -->
+    <link rel="stylesheet" href="vendors/camera-slider/camera.css">
+    
+
+    <!--Theme Styles CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+   
+        <style>
+        
+        @media only screen and (max-width: 3000px) and (min-width: 750px)
+      {
+                .navbar .navbar-header .navbar-brand img 
+                {
+                                     width: 80px;
+                                     padding-top: 10px;
+                                 
+                                     
+                                                                
+
+                }
+                .navbar .navbar-header .navbar-brand img {
+                        max-width: 100%;
+                }
+               
+                   
+        }
+        @media only screen and (max-width: 750px) and (min-width: 250px)
+      {
+                .navbar .navbar-header .navbar-brand img 
+                {
+                                     width: 80px;
+                                     padding-top: 1px;
+                                    
+                                     
+                                                                
+
+                }
+                .navbar .navbar-header .navbar-brand img {
+                        max-width: 100%;
+                }
+                   
+        }
+         
+        @media only screen and (max-width: 700px) 
+        {
+            .partner_area .item img
+            {
+                    max-width: 120px;
+            }
+           
+        }
+        @media only screen and (min-width: 750px) and (max-width:854px)  {
+
+
+            .campus .campus_inner .campus_sub_inner .smp img{
+               
+                    height: 230px;
+
+            }
+
+
+
+
+        }
+       
+
+        
+        }
+         @media only screen and (min-width: 700px) and (max-width: 840px) {
+            
+            .partner_area .item img
+            {
+                    max-width: 120px;
+            }
+           
+        }
+        
+         @media only screen and (min-width: 850px)  {
+            .partner_area .item img
+            {
+                   max-width: 130px;
+            }
+           
+        }
+         .hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.1);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+width: 100%;
+max-height: 330px;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding-top:20px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:traeventpic1arent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:14px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+.title{
+    padding: 15px;
+    border:1px solid grey;
+    text-align: center;
+    background-color: #373737;
+    color: white;
+    font-family: "Palatino Linotype", "Book Antiqua";
+}
+.subtitle{
+    
+    text-align: center;
+    font-family: "Times New Roman", Times;
+    color: white;
+}
+
+.subtitle p{
+    color:white;
+    padding: 10px;
+    text-align: left;
+}
+.subtitle h4{
+    color:white;
+    text-align: left;
+    padding: 10px;
+} 
+.event_images img{
+                               max-width: 250px;
+                               max-height: 150px;
+                               min-width: 250px;
+                              min-height: 150px;
+                }
+
+    </style>
+    
+</head>
+<body>
+    
+    <!-- Preloader 
+    <div class="preloader">
+
+
+    </div>-->
+        <a id="gotopbutton" href="#start" onmouseover="launch()" onmouseout="readytolaunch()"><img id="gototop" src="images/top.png"></a>
+  
+	<!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera" id="main_navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-2 p0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img style="position: absolute;top: 0px;"  src="images/srkg.png"  alt=""></a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="col-md-10 p0">
+                <div class="collapse navbar-collapse" id="min_navbar">
+                     <ul class="nav navbar-nav navbar-right">
+                        <li >
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li >
+                            <a href="aboutus.html">About Us</a>
+                        </li>
+                         <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Facilities</a>
+                                    <ul class="dropdown-menu other_dropdwn">
+                                        <li><a href="campus.html">Campus</a></li>
+                                       <li><a href="hostel.html">Hostel</a></li>
+                                        <li><a href="transport.html">Transport</a></li>
+                                        <li><a href="sports.html">Sports</a></li>
+                                    </ul>
+                                </li>
+                        
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </div><!-- /.container -->
+    </nav>
+	<!-- End Header_Area -->
+
+    <!-- Slider area -->
+    <section class="slider_area row m0" id="start">
+        <div class="slider_inner" >
+            <div data-thumb="images/school1.jpg" data-src="images/school1.jpg" >
+                <div class="camera_caption" style="padding-top: 30%;">
+                   <div class="container">
+                        
+                        <h3 class=" wow fadeInUp animated" data-wow-delay="0.2s"><span style="color:#fc440c">Sri Rama</span> Krishna Gurukulam</h3>
+                       <p class=" wow fadeInUp animated" data-wow-delay="0.4s"><b>"</b>An oppurtunity to discover your talents"</i></p>
+                   </div>
+                </div>
+            </div>
+            <div data-thumb="images/school1.jpg" data-src="images/10thclass2017-18.jpg">
+                <div class="camera_caption" style="padding-top: 30%;">
+                   <div class="container">
+                        
+                        <h3 class=" wow fadeInUp animated" data-wow-delay="0.2s"><span style="color:#fc440c">Sri Rama</span> Krishna Gurukulam</h3>
+                        <p class=" wow fadeInUp animated" data-wow-delay="0.4s"><b>"</b>Wholistic Development Experience Learning 360 degrees</b></p>
+                      
+                   </div>
+                </div>
+            </div>
+            
+            <div data-thumb="images/newrooms.jpg" data-src="images/newrooms.jpg">
+                <div class="camera_caption" style="padding-top: 30%;">
+                   <div class="container">
+                        
+                        <h3 class=" wow fadeInUp animated" data-wow-delay="0.2s"><span style="color:#fc440c">Sri Rama</span> Krishna Gurukulam</h3>
+                        <p class=" wow fadeInUp animated" data-wow-delay="0.4s"><b>"</b>Wholistic Development Experience Learning 360 degrees</b></p>
+                      
+                   </div>
+                </div>
+            </div>
+           
+            <div data-thumb="images/school2.jpg" data-src="images/kidspic1.jpg">
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Slider area -->
+
+    <!-- About Us Area -->
+    <section class="about_us_area row" style="background-color: white;">
+        <div class="container">
+            <div class="tittle wow fadeInUp">
+                <h2>ABOUT US</h2>
+              
+            </div>
+            <div class="row about_row">
+                <div class="who_we_area col-md-7 col-sm-6">
+                    <div class="subtittle">
+                        <h2>About Us</h2>
+                    </div>
+                    <p class="text-justify">Sri Rama Krishna Gurukulam  is a place where children have the opportunity to discover their talents and are free to explore and enjoy learning.
+                    Our school believes children should have a joyous and meaningful learning experience at school. Children learn effectively and with enthusiasm when they make sense of topics and relate to them. To this end, we encourage children to explore experiment and experience as they progress through their childhood.<br><br></p>
+                    <a href="aboutus.html" class="button_all">Read More</a>
+                  
+                </div>
+                <div class="col-md-5 col-sm-6 about_client">
+                    <img src="images/school2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Us Area -->
+     
+    <!-- Campus Area -->
+    <section class="campus row" style="background-color: #f5f5f1">
+        <div class="container">
+            <div class="tittle wow fadeInUp">
+                <h2>Campus</h2>
+               
+            </div>
+            <div class="row campus_inner">
+                <div class="col-md-4 col-sm-6 campus_sub_inner">
+                   <div class="campus-img">
+                      <a href="#">  <img src="images/hostelpic1.jpg" alt=""></a>
+                   </div>
+                   <div class="campus-content">
+                        <i class="fa fa-building aria-hidden="true"></i>
+                        <a href="#">Hostel</a>
+                        <p class="text-justify">Our school provides excellent residential school facilities for both boys and girls.</p>
+                   </div>
+                </div>
+               
+                <div class="col-md-4 col-sm-6 campus_sub_inner">
+                   <div class="campus-img smp">
+                        <img src="images/BUSPIC1.jpg"  alt="">
+                   </div>
+                   <div class="campus-content ">
+                        <i class="fa fa-bus" aria-hidden="true"></i>
+                        <a href="#">Bus Service</a>
+                        <p  class="text-justify">Our school is not far away from you. With a fleet of buses, our children always look forward to their everyday bus trip. </p>
+                   </div>
+                </div>
+                <div class="col-md-4 col-sm-6 campus_sub_inner">
+                   <div class="campus-img">
+                        <img src="images/sportspic1.jpg" style="width: 100%" alt="">
+                   </div>
+                   <div class="campus-content">
+                        <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                        <a href="#">Sports</a>
+                        <p class="text-justify">We have excellent playground and good equipment to play for boosting children to increase there energy under the guidance. </p>
+                   </div>
+                </div>
+                
+               
+                
+            </div>
+        </div>
+    </section>
+    <!-- End of Campus Area -->
+ 
+   
+
+    
+   
+
+
+<!-- Events Area -->
+    <section  style="background-color: #E0E0E0;">
+         <div class="tittle wow fadeInUp">
+                <h2>Events</h2>
+
+            </div>
+        <div class="container event_images" style="padding-top: 50px;">
+           
+           <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                 <div class="hovereffect">
+                     <img class="img-responsive" src="images/Independencedaypic5.jpg" alt="">
+                         
+                 </div>
+                 <div class="title">
+                     <h3>Independence Day</h3>
+                 </div>
+                 <div class="subtitle" style="background-color:#f4511e;">
+                    <h4><i class="fa fa-thumb-tack" aria-hidden="true"></i>&nbsp;&nbsp;Rentachintala</h4>
+                     <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;24//2018</h4>
+                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;9:00AM TO 11:30AM</p>
+
+                     <h4>Independence Day Celebrations</h4>
+                      <a href="#" class="button_all" style="background-color: #373737;border: 1px solid black"><span style="color: white;">Read More</span></a>
+                 </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                     <img class="img-responsive" src="images/eventpic3.jpg" alt="">
+                         
+                 </div>
+                 <div class="title">
+                     <h3>Krishnastami</h3>
+                 </div>
+                 <div class="subtitle" style="background-color:#ffb300;">
+                    <h4><i class="fa fa-thumb-tack" aria-hidden="true"></i>&nbsp;&nbsp;Rentachintala</h4>
+                     <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;03/09/2018</h4>
+                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;9:00AM TO 2:00PM</p>
+
+                     <h4>Krishnastami Celebrations</h4>
+                      <a href="#" class="button_all" style="background-color: #373737;border: 1px solid black"><span style="color: white;">Read More</span></a>
+                 </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                     <img class="img-responsive" src="images/holipic1.jpg" alt="">
+                         
+                 </div>
+                 <div class="title">
+                     <h3>Holi</h3>
+                 </div>
+                 <div class="subtitle" style="background-color:#388e3c;">
+                    <h4><i class="fa fa-thumb-tack" aria-hidden="true"></i>&nbsp;&nbsp;Rentachintala</h4>
+                     <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;02/03/2018</h4>
+                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;1:30PM TO 4:00PM</p>
+
+                     <h4>Holi Celebrations</h4>
+                      <a href="#" class="button_all" style="background-color: #373737;border: 1px solid black"><span style="color: white;">Read More</span></a>
+                 </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="hovereffect">
+                     <img class="img-responsive" src="images/rakhipic2.jpg" alt="">
+                         
+                 </div>
+                 <div class="title">
+                     <h3>Rakhi</h3>
+                 </div>
+                 <div class="subtitle" style="background-color:#e53935;">
+                    <h4><i class="fa fa-thumb-tack" aria-hidden="true"></i>&nbsp;&nbsp;Rentachintala</h4>
+                     <h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;24/04/2018</h4>
+                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;9:00AM TO 3:00PM</p>
+
+                     <h4>Rakhi Celebrations</h4>
+                      <a href="#" class="button_all" style="background-color: #373737;border: 1px solid black"><span style="color: white;">Read More</span></a>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Team Area -->
+   <!-- Footer Area -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer_row row">
+                <div class="col-md-offset-1 col-md-4 col-sm-6 footer_about">
+                    <h2>SRI RAMA KRISHNA GURUKULAM</h2>
+                    <img src="images/srkg.png" style="height: 80px;" alt="">
+                    <p>Sri Rama Krishna Gurukulam is the place where children have the opportunity to discover their talents and are free to explore and enjoy learning.  </p>
+                    <ul class="socail_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-offset-3 col-md-4 col-sm-6 footer_about">
+                    <h2>CONTACT US</h2>
+                    <address>
+                       
+                        <ul class="my_address">
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>sriramakrishnagurukulam@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 9876543210</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Saradha Nagar , Rentachintala , Rentachintala Mandal,</b> Guntur District , Andhra Pradesh, 522421.</a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_area">
+            Copyright 2018 All rights reserved @Sri Rama Krishna Gurukulam
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+
+    <!-- Top Header_Area -->
+    <!-- jQuery JS -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animate JS -->
+    <script src="vendors/animate/wow.min.js"></script>
+    <!-- Camera Slider -->
+    <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
+    <script src="vendors/camera-slider/camera.min.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+</body>
+</html>

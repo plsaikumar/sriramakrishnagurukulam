@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sri Rama Krishna Gurukulam</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/srkg.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="vendors/animate/animate.css" rel="stylesheet">
+    <!-- Icon CSS-->
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <!-- Camera Slider -->
+    <link rel="stylesheet" href="vendors/camera-slider/camera.css">
+    
+    <!--Theme Styles CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+
+    
+     <style >
+      @media only screen and (max-width: 3000px) and (min-width: 750px)
+      {
+                .navbar .navbar-header .navbar-brand img 
+                {
+                                     width: 80px;
+                                     padding-top: 10px;
+                                 
+                                     
+                                                                
+
+                }
+                .navbar .navbar-header .navbar-brand img {
+                        max-width: 100%;
+                }
+                
+
+                   
+        }
+        @media only screen and (max-width: 750px) and (min-width: 250px)
+      {
+                .navbar .navbar-header .navbar-brand img 
+                {
+                                     width: 80px;
+                                     padding-top: 1px;
+                                    
+                                     
+                                                                
+
+                }
+                .navbar .navbar-header .navbar-brand img {
+                        max-width: 100%;
+                }
+                .gallery {
+                                
+                                margin: 50px 50px;
+
+
+                    }
+
+               
+
+
+
+                   
+        }
+      .parallax {
+    /* The image used */
+    background-image: url("images/school1.jpg");
+     
+    /* Set a specific height */
+    min-height: 650px; 
+
+    /* Create the parallax scrolling effect */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ z-index: 1;
+}
+.parallax:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  z-index: -1;
+
+}
+.campus_heading{
+    padding-top: 250px;
+    text-align: left;
+    color: orange;
+    padding-left: 40px;
+}
+
+.gallery img{
+    width: 180px;
+    height: 180px;
+    padding: 6px;
+     transition: 0.5s;
+
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+
+
+    </style>
+</head>
+<body>
+   <!-- Preloader 
+    <div class="preloader">
+
+
+    </div>-->
+    <!--Fixed scroll up rocket image -->
+    <a id="gotopbutton" href="#start" onmouseover="launch()" onmouseout="readytolaunch()"><img id="gototop" src="images/top.png"></a>
+
+	
+
+	<!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera" id="main_navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-2 p0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img  style="position: absolute;top: 0px;"  src="images/srkg.png"  alt=""></a>
+                </div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="col-md-10 p0">
+                <div class="collapse navbar-collapse" id="min_navbar">
+                   <ul class="nav navbar-nav navbar-right">
+                        <li >
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li >
+                            <a href="aboutus.html">About Us</a>
+                        </li>
+                         <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Facilities</a>
+                                    <ul class="dropdown-menu other_dropdwn">
+                                        <li><a href="campus.html">Campus</a></li>
+                                        <li><a href="hostel.html">Hostel</a></li>
+                                        <li><a href="transport.html">Transport</a></li>
+                                        <li><a href="sports.html">Sports</a></li>
+                                    </ul>
+                                </li>
+                        
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </div><!-- /.container -->
+    </nav>
+    <!-- End Header_Area -->
+
+    <!-- Banner area -->
+    <section class="parallax" data-stellar-background-ratio="0.2" id="start">
+        <h2 class="campus_heading">Campus</h2>
+        <ol>
+            <p style="color: #fc440c">EXPLORE&nbsp;&nbsp;&nbsp;<span style="color:white;border-right: 2px solid white"></span> DISCOVER&nbsp;&nbsp;&nbsp;<span style="color:white;border-right: 2px solid white"></span> GROW</p>
+        </ol>
+    </section>
+    <!-- End Banner area -->
+    <!-- CAMPUS Area -->
+    <section class="about_us_area row">
+        <div class="container">
+
+            <div class="tittle wow fadeInUp">
+                <h2>CAMPUS</h2>
+                
+            </div>
+            <div class="row about_row">
+               
+                <div class="who_we_area col-md-12 col-sm-12">
+                    
+                    <h5 style="line-height: 1.8;word-spacing: 7px;" class="text-justify"> Sri Rama Krishna Gurukulam  is one of the Top  schools in Rentachintala Manadal with a huge campus in the area of 12.6 Acres equipped with good infrastructure .
+
+It is the best boarding school in Rentachintala area  for Residential and Day Scholar located at Saradha Nagar, Rentachintala Mandal, Guntur District. The school contains state of art indoor and outdoor amenities including huge campus, the extensive playground, badminton court, volleyball court. Our spacious classrooms are well-ventilated to keep students in natural light.
+
+Our school believes that children’s learning should be well grounded in strong academics fundamentals based on understanding.
+
+Our campus is a cultural mix with students from different areas such as Rentachintala, Pasarlapadu, Rentala, Manchikalu, Thumurukota. </h5>
+                    
+                </div>
+                
+            </div>
+
+ </div>
+    
+</section>
+<!-- END OF CAMPUS Area -->
+<section>
+    <div class="container gallery">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class10.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class10.jpg" ></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class9.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class9.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class8.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class8.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class8boys.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class8boys.jpg"></a></div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+     <a href="images/class6.jpg" data-lightbox="mygallery"><img class="img-responsive" src="images/class6.jpg"></a></div>
+     <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class4.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class4.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class9b.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class9b.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/7thclasspic.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/7thclasspic.jpg"></a></div>
+</div>
+<div class="row">
+     <div class="col-md-3 col-sm-6 col-xs-12">
+     <a href="images/class2b.jpg" data-lightbox="mygallery"><img class="img-responsive" src="images/class2b.jpg"></a></div>
+     <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class4a.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class4a.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class4b.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class4b.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/class3a.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/class3a.jpg"></a></div>
+
+     </div>
+<div class="row">
+     <div class="col-md-3 col-sm-6 col-xs-12">
+     <a href="images/kindergarden4.jpg" data-lightbox="mygallery"><img class="img-responsive" src="images/kindergarden4.jpg"></a></div>
+     <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/kindergarden3.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/kindergarden3.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/kindergarden1.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/kindergarden1.jpg"></a></div>
+    <div class="col-md-3 col-sm-6 col-xs-12">
+    <a href="images/kindergarden5.jpg" data-lightbox="mygallery" ><img class="img-responsive" src="images/kindergarden5.jpg"></a></div>
+
+     </div>
+    </div>
+</section>
+
+ <!-- Footer Area -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer_row row">
+                <div class="col-md-offset-1 col-md-4 col-sm-6 footer_about">
+                    <h2>SRI RAMA KRISHNA GURUKULAM</h2>
+                    <img src="images/srkg.png" style="height: 80px;" alt="">
+                    <p>Sri Rama Krishna Gurukulam is the place where children have the opportunity to discover their talents and are free to explore and enjoy learning.  </p>
+                    <ul class="socail_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-offset-3 col-md-4 col-sm-6 footer_about">
+                    <h2>CONTACT US</h2>
+                    <address>
+                       
+                        <ul class="my_address">
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>sriramakrishnagurukulam@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 9876543210</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>Saradha Nagar, Rentachintala , Rentachintala Mandal,</b> Guntur District , Andhra Pradesh, 522421.</a></li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_area">
+            Copyright 2018 All rights reserved @Sri Rama Krishna Gurukulam
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+
+
+
+     <!-- jQuery JS -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animate JS -->
+    <script src="vendors/animate/wow.min.js"></script>
+    <!-- Camera Slider -->
+    <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
+    <script src="vendors/camera-slider/camera.min.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+</body>
+</html>
